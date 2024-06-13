@@ -1,0 +1,318 @@
+¿Qué significa la sigla "IP" en redes?
+Internet Protocol
+Internet Provider
+Internal Process
+Information Pathway
+1
+¿Cuál es la principal función de un servidor DNS en una red?
+Enviar correos electrónicos
+Traducir nombres de dominio a direcciones IP
+Interviene en las funciones de enrutado
+Proporcionar conectividad Wi-Fi
+2
+¿Cuál es la función de una CDN (Content Delivery Network)?
+Monitorizar el tráfico de la red
+Proteger la red de ataques DDoS
+Almacenar copias de seguridad de los datos
+Distribuir contenido a los usuarios de manera rápida y eficiente.
+4
+¿Qué es el "balanceo de carga" en redes?
+Reducir el uso de ancho de banda
+Incrementar la velocidad de la conexión a internet
+Distribuir el tráfico de red entre varios servidores para asegurar la eficiencia y fiabilidad
+Monitorizar el tráfico de la red
+3
+¿Qué es una dirección IP?
+Una dirección física
+Una dirección lógica
+Una dirección MAC
+Una dirección URL
+2
+¿En qué capa del modelo OSI se encuentra el protocolo TCP?
+Capa de enlace de datos
+Capa de red
+Capa de transporte
+Capa de aplicación
+3
+¿Cuál es la función principal de un router?
+Conectar dispositivos dentro de la misma red
+Conectar redes diferentes
+Filtrar tráfico web
+Almacenar datos
+2
+¿Qué protocolo se utiliza para la transferencia de archivos?
+HTTP
+FTP
+SMTP
+DNS
+2
+¿En qué capa del modelo OSI se encuentra el protocolo HTTP?
+Capa de enlace de datos
+Capa de red
+Capa de transporte
+Capa de aplicación
+4
+¿Qué es una dirección MAC?
+Una dirección lógica
+Una dirección física
+Una dirección IP
+Una dirección URL
+2
+¿Cuál es la función de un switch en una red?
+Conectar redes diferentes
+Conectar dispositivos dentro de la misma red
+Filtrar tráfico web
+Almacenar datos
+2
+¿Qué significa VPN?
+Red Privada Virtual
+Protocolo de Red
+Verificación de Protocolo
+Red de Protocolo Virtual
+1
+¿Qué protocolo se utiliza para el envío de correos electrónicos?
+FTP
+HTTP
+SMTP
+DNS
+3
+¿En qué capa del modelo OSI se encuentra el protocolo Ethernet?
+Capa de enlace de datos
+Capa de red
+Capa de transporte
+Capa de aplicación
+1
+¿Qué es un firewall?
+Un dispositivo de almacenamiento
+Un dispositivo de seguridad de red
+Un dispositivo de red
+Un tipo de malware
+2
+¿Qué es un DNS?
+Un sistema de nombres de dominio
+Un tipo de protocolo
+Un tipo de dirección IP
+Un dispositivo de red
+1
+¿Cuál es la velocidad máxima teórica de una conexión Ethernet Gigabit?
+100 Mbps
+1 Gbps
+10 Gbps
+100 Gbps
+2
+¿Qué protocolo se utiliza para asegurar las conexiones web?
+FTP
+HTTP
+SSL/TLS
+DNS
+3
+¿En qué año se introdujo el protocolo IPv6?
+1996
+1998
+2000
+2002
+2
+¿Qué puerto utiliza el protocolo HTTP por defecto?
+20
+21
+80
+443
+3
+¿Qué puerto utiliza el protocolo HTTPS por defecto?
+20
+21
+80
+443
+4
+¿Qué es una red de área local (LAN)?
+Una red que conecta dispositivos en un área extensa
+Una red que conecta dispositivos en un área local
+Una red que conecta dispositivos a Internet
+Una red que conecta dispositivos por satélite
+2
+¿Qué significa NAT?
+Traducción de Direcciones de Red
+Protocolo de Red
+Tipo de Red
+Verificación de Red
+1
+¿Cuál es la función principal del protocolo DHCP?
+Asignar direcciones IP automáticamente
+Transferir archivos
+Enviar correos electrónicos
+Resolver nombres de dominio
+1
+¿Qué es una topología de red?
+El diseño físico y lógico de una red
+Un tipo de dispositivo de red
+Un tipo de protocolo de red
+Un tipo de dirección IP
+1
+¿Qué protocolo se utiliza para la resolución de nombres de dominio?
+FTP
+HTTP
+SMTP
+DNS
+4
+¿Cuál es la función de un servidor proxy?
+Almacenar datos
+Filtrar y controlar el acceso a Internet
+Conectar redes diferentes
+Asignar direcciones IP
+2
+¿Qué significa QoS?
+Calidad de Servicio
+Protocolo de Red
+Tipo de Dirección IP
+Traducción de Direcciones de Red
+1
+¿Qué protocolo se utiliza para acceder a una computadora de forma remota?
+FTP
+HTTP
+SSH
+DNS
+3
+¿Qué es un paquete de datos?
+Una unidad de datos que se transmite por una red
+Un tipo de protocolo de red
+Un dispositivo de red
+Una dirección IP
+1
+¿En qué capa del modelo OSI se encuentra el protocolo ICMP?
+Capa de enlace de datos
+Capa de red
+Capa de transporte
+Capa de aplicación
+2
+¿Qué significa VLAN?
+Red de Área Local
+Red de Área Extensa
+Red de Área Metropolitana
+Red de Área Local Virtual
+4
+¿Qué protocolo se utiliza para la transferencia segura de archivos?
+FTP
+HTTP
+FTPS
+DNS
+3
+¿Qué es una red de área extensa (WAN)?
+Una red que conecta dispositivos en un área local
+Una red que conecta dispositivos en un área extensa
+Una red que conecta dispositivos por satélite
+Una red que conecta dispositivos en un edificio
+2
+¿Qué significa SSID?
+Identificador de Conjunto de Servicios
+Protocolo de Red
+Tipo de Dirección IP
+Traducción de Direcciones de Red
+1
+¿Qué es una red ad hoc?
+Una red temporal creada para una comunicación específica
+Una red que conecta dispositivos en un área local
+Una red que conecta dispositivos en un área extensa
+Una red que conecta dispositivos a Internet
+1
+¿Qué protocolo se utiliza para la transmisión de video en tiempo real?
+FTP
+HTTP
+RTSP
+DNS
+3
+¿Cuál es la función principal de un repetidor en una red?
+Asignar direcciones IP
+Filtrar tráfico web
+Extender el alcance de una señal
+Almacenar datos
+3
+¿Qué significa BGP?
+Protocolo de Puerta de Enlace Fronteriza
+Protocolo de Red
+Traducción de Direcciones de Red
+Protocolo de Transferencia de Archivos
+1
+¿Qué protocolo se utiliza para la sincronización de relojes en una red?
+NTP
+HTTP
+FTP
+DNS
+1
+¿Qué es una dirección IP estática?
+Una dirección IP que cambia automáticamente
+Una dirección IP asignada temporalmente
+Una dirección IP asignada permanentemente
+Una dirección IP que se utiliza para el DNS
+3
+¿Qué significa SSL/TLS?
+Capa de Enlace Seguro/Seguridad de la Capa de Transporte
+Protocolo de Red
+Tipo de Dirección IP
+Traducción de Direcciones de Red
+1
+¿Qué protocolo se utiliza para la transmisión de correo electrónico desde un servidor a un cliente?
+FTP
+IMAP
+HTTP
+DNS
+2
+¿Qué es un puerto en una red?
+Una dirección física
+Una dirección lógica
+Un punto de conexión para la comunicación de red
+Un tipo de dirección IP
+3
+¿Qué protocolo se utiliza para el monitoreo de redes?
+FTP
+SNMP
+HTTP
+DNS
+2
+¿Cuál es la función de un balanceador de carga?
+Asignar direcciones IP
+Filtrar tráfico web
+Distribuir tráfico de red entre múltiples servidores
+Almacenar datos
+3
+¿Qué es una dirección IP dinámica?
+Una dirección IP que cambia automáticamente
+Una dirección IP asignada temporalmente
+Una dirección IP asignada permanentemente
+Una dirección IP que se utiliza para el DNS
+1
+¿Qué significa TCP/IP?
+Protocolo de Control de Transmisión/Protocolo de Internet
+Protocolo de Transferencia de Archivos/Protocolo de Internet
+Protocolo de Control de Transmisión/Protocolo de Red
+Protocolo de Transferencia de Archivos/Protocolo de Red
+1
+¿Qué es un ataque DDoS?
+Un ataque que utiliza múltiples sistemas para inundar un objetivo con tráfico
+Un ataque que intercepta datos
+Un ataque que instala malware en un sistema
+Un ataque que filtra tráfico web
+1
+¿En qué capa del modelo OSI se encuentra el protocolo ARP?
+Capa de enlace de datos
+Capa de red
+Capa de transporte
+Capa de aplicación
+2
+¿Qué protocolo se utiliza para la transferencia de archivos entre computadoras de una red local?
+FTP
+SFTP
+TFTP
+NFS
+4
+¿Qué significa ICMP?
+Protocolo de Mensajes de Control de Internet
+Protocolo de Transferencia de Archivos
+Protocolo de Control de Transmisión
+Protocolo de Red
+1
+¿Cuál es la función de un servidor DNS?
+Asignar direcciones IP
+Resolver nombres de dominio a direcciones IP
+Filtrar tráfico web
+Monitorear redes
+2

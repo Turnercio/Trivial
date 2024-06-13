@@ -1,0 +1,300 @@
+¿Qué técnica se utiliza para enseñar a una máquina mediante ejemplos?
+Machine Learning
+Quantum Computing
+Blockchain
+Data Mining
+1
+¿Qué es el "aprendizaje supervisado" en el contexto del aprendizaje automático?
+Un tipo de aprendizaje automático sin necesidad de datos etiquetados
+Un tipo de aprendizaje automático donde el modelo se entrena con datos etiquetados
+Un método para mejorar la eficiencia energética de los dispositivos
+Un algoritmo que permite supervisar la base de conocimiento 
+2
+¿Quién es conocido como el padre de la inteligencia artificial?
+Alan Turing
+John McCarthy
+Marvin Minsky
+Herbert Simon
+2
+¿Qué prueba propone Alan Turing para determinar la inteligencia de una máquina?
+Prueba de Turing
+Prueba de Lovelace
+Prueba de Gödel
+Prueba de Neumann
+1
+¿Cuál fue el primer programa de ajedrez?
+Deep Blue
+Chess 1.0
+Turbo Chess
+Eliza
+2
+¿Qué es el aprendizaje profundo?
+Una técnica de procesamiento de lenguaje natural
+Una técnica de redes neuronales
+Una técnica de visión por computadora
+Una técnica de razonamiento automático
+2
+¿Quién desarrolló el algoritmo de retropropagación?
+John McCarthy
+Geoffrey Hinton
+Yann LeCun
+Andrew Ng
+2
+¿Cuál fue el primer chatbot?
+Eliza
+Alice
+Siri
+Cleverbot
+1
+¿Qué es un algoritmo genético?
+Un algoritmo basado en la evolución biológica
+Un algoritmo de clasificación
+Un algoritmo de búsqueda
+Un algoritmo de procesamiento de imágenes
+1
+¿Quién desarrolló la primera red neuronal convolucional?
+Yoshua Bengio
+Geoffrey Hinton
+Yann LeCun
+Andrew Ng
+3
+¿Qué técnica de IA se utiliza en los vehículos autónomos?
+Procesamiento de lenguaje natural
+Aprendizaje por refuerzo
+Visión por computadora
+Minería de datos
+3
+¿Cuál es el propósito de un algoritmo de clustering?
+Clasificar datos en categorías
+Agrupar datos similares
+Predecir valores futuros
+Reducir la dimensionalidad de los datos
+2
+¿Qué es un perceptrón?
+Un modelo de procesamiento de lenguaje natural
+Un modelo de red neuronal
+Un modelo de clustering
+Un modelo de razonamiento automático
+2
+¿En qué año se celebró la primera conferencia de Dartmouth sobre inteligencia artificial?
+1956
+1960
+1965
+1970
+1
+¿Qué empresa desarrolló el asistente virtual Siri?
+Google
+Apple
+Amazon
+Microsoft
+2
+¿Cuál es el objetivo principal del aprendizaje supervisado?
+Agrupar datos similares
+Reducir la dimensionalidad de los datos
+Predecir valores basados en datos etiquetados
+Descubrir patrones ocultos en los datos
+3
+¿Qué técnica de IA se utiliza en el reconocimiento de voz?
+Visión por computadora
+Procesamiento de lenguaje natural
+Aprendizaje por refuerzo
+Algoritmos genéticos
+2
+¿Quién es el creador de la máquina de Boltzmann?
+Geoffrey Hinton
+Yann LeCun
+John McCarthy
+Marvin Minsky
+1
+¿Qué es un autoencoder?
+Un modelo de redes neuronales para reducción de dimensionalidad
+Un algoritmo de clustering
+Un algoritmo de regresión
+Un modelo de razonamiento automático
+1
+¿Qué técnica de IA se utiliza para traducir idiomas automáticamente?
+Procesamiento de lenguaje natural
+Aprendizaje profundo
+Aprendizaje por refuerzo
+Algoritmos genéticos
+1
+¿Quién desarrolló el modelo de red neuronal recurrente (RNN)?
+Geoffrey Hinton
+Yoshua Bengio
+Yann LeCun
+Jürgen Schmidhuber
+4
+¿Qué es el procesamiento de lenguaje natural (NLP)?
+Una técnica para la visión por computadora
+Una técnica para el análisis de datos
+Una técnica para la interacción entre computadoras y humanos a través del lenguaje
+Una técnica para el aprendizaje automático
+3
+¿Qué técnica de IA se utiliza en los motores de recomendación?
+Clustering
+Aprendizaje supervisado
+Aprendizaje no supervisado
+Aprendizaje por refuerzo
+2
+¿Quién desarrolló el algoritmo de árbol de decisión?
+Geoffrey Hinton
+Ross Quinlan
+Yann LeCun
+John McCarthy
+2
+¿Qué es la máquina de soporte vectorial (SVM)?
+Un modelo de regresión
+Un modelo de clustering
+Un modelo de clasificación
+Un modelo de reducción de dimensionalidad
+3
+¿Qué técnica de IA se utiliza en la detección de fraudes?
+Aprendizaje supervisado
+Aprendizaje no supervisado
+Aprendizaje por refuerzo
+Visión por computadora
+1
+¿Qué es una red generativa adversarial (GAN)?
+Un modelo de clustering
+Un modelo de regresión
+Un modelo de generación de datos
+Un modelo de clasificación
+3
+¿Quién es conocido por sus contribuciones al aprendizaje profundo?
+Geoffrey Hinton
+Yann LeCun
+Yoshua Bengio
+Todos los anteriores
+4
+¿Qué es el aprendizaje por refuerzo?
+Una técnica para aprender a través de recompensas y castigos
+Una técnica para reducir la dimensionalidad de los datos
+Una técnica para clasificar datos
+Una técnica para agrupar datos
+1
+¿En qué año derrotó Deep Blue a Garry Kasparov?
+1996
+1997
+1998
+1999
+2
+¿Qué técnica de IA se utiliza en los sistemas de recomendación de películas?
+Aprendizaje supervisado
+Aprendizaje no supervisado
+Aprendizaje por refuerzo
+Clustering
+1
+¿Qué es el razonamiento automático?
+Una técnica para la visión por computadora
+Una técnica para el procesamiento de lenguaje natural
+Una técnica para inferir nuevas conclusiones a partir de datos conocidos
+Una técnica para la generación de datos
+3
+¿Qué es una red de Hopfield?
+Un modelo de red neuronal recurrente
+Un modelo de red neuronal autoasociativa
+Un modelo de red neuronal convolucional
+Un modelo de red neuronal generativa
+2
+¿Qué es el análisis de sentimientos?
+Una técnica de visión por computadora
+Una técnica de clasificación de texto
+Una técnica de clustering
+Una técnica de generación de texto
+2
+¿Qué técnica de IA se utiliza para la generación de texto automático?
+Aprendizaje profundo
+Aprendizaje por refuerzo
+Visión por computadora
+Algoritmos genéticos
+1
+¿Qué es un robot autónomo?
+Un robot que puede operar sin intervención humana
+Un robot que requiere intervención humana constante
+Un robot que solo puede realizar tareas preprogramadas
+Un robot que solo puede operar en entornos controlados
+1
+¿Quién es conocido por el desarrollo de AlphaGo?
+Geoffrey Hinton
+Yann LeCun
+Demis Hassabis
+John McCarthy
+3
+¿Qué técnica de IA se utiliza en la detección de spam?
+Clustering
+Aprendizaje supervisado
+Aprendizaje por refuerzo
+Algoritmos genéticos
+2
+¿Qué es la lógica difusa?
+Una técnica para la visión por computadora
+Una técnica para el razonamiento con incertidumbre
+Una técnica para el procesamiento de lenguaje natural
+Una técnica para el aprendizaje automático
+2
+¿Qué técnica de IA se utiliza en los sistemas de diagnóstico médico?
+Visión por computadora
+Aprendizaje profundo
+Aprendizaje supervisado
+Aprendizaje no supervisado
+3
+¿Quién es conocido por el desarrollo de la teoría de juegos en IA?
+John von Neumann
+Alan Turing
+John Nash
+Geoffrey Hinton
+3
+¿Qué es una red neuronal de retroalimentación (feedback)?
+Una red neuronal sin conexiones cíclicas
+Una red neuronal con conexiones cíclicas
+Una red neuronal convolucional
+Una red neuronal generativa
+2
+¿Qué técnica de IA se utiliza en los asistentes virtuales como Alexa?
+Visión por computadora
+Aprendizaje profundo
+Procesamiento de lenguaje natural
+Aprendizaje por refuerzo
+3
+¿Quién es conocido por sus contribuciones a la teoría de redes neuronales?
+Geoffrey Hinton
+Yann LeCun
+Yoshua Bengio
+Todos los anteriores
+4
+¿Qué es el aprendizaje no supervisado?
+Una técnica para aprender sin datos etiquetados
+Una técnica para aprender con datos etiquetados
+Una técnica para aprender a través de recompensas y castigos
+Una técnica para la reducción de dimensionalidad
+1
+¿Qué técnica de IA se utiliza en los sistemas de visión por computadora?
+Aprendizaje supervisado
+Aprendizaje no supervisado
+Aprendizaje por refuerzo
+Redes neuronales convolucionales
+4
+¿Quién desarrolló el primer programa de procesamiento de lenguaje natural?
+John McCarthy
+Geoffrey Hinton
+Alan Turing
+Joseph Weizenbaum
+4
+¿Qué técnica de IA se utiliza en el reconocimiento facial?
+Clustering
+Aprendizaje supervisado
+Redes neuronales convolucionales
+Algoritmos genéticos
+3
+¿Quién es conocido por sus contribuciones a la inteligencia artificial fuerte?
+John McCarthy
+Geoffrey Hinton
+Ray Kurzweil
+Marvin Minsky
+3
+¿Qué es el aprendizaje automático?
+Una técnica para generar datos
+Una técnica para descubrir patrones en los datos
+Una técnica para reducir la dimensionalidad de los datos
+Una técnica para agrupar datos
+2
