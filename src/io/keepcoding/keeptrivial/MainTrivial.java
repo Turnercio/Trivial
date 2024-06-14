@@ -1,113 +1,3 @@
-/**package io.keepcoding.keeptrivial;
-
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-
-public class MainTrivial {
-	public static void main(String [] args) {
-			// initialize questions
-		ArrayList<?> list = getQuestions();
-		System.out.println(list);
-			// initialize teams
-		boolean exit = false;
-		do {
-			// Cambiar el turno para cada equipo
-			// Mostrar preguntas
-			// Mostrar resultado
-			// Comprobar si hay ganador
-			// Mostrar clasificación
-		} while(!exit);
-		System.out.println();
-		title("Ha ganado: " + "Pedro Andrés");
-		
-	}
-	
-	public static void title(String text) {
-		int length = text.length();
-		printHashtagLine(length + 4); // Bordes
-
-        System.out.println("# " + text + " #");
-
-        printHashtagLine(length + 4);
-	}
-	
-	public static void printHashtagLine(int length) {
-        for (int i = 0; i < length; i++) {
-            System.out.print("#");
-        }
-        System.out.println();
-    }
-	
-	 public static boolean esTransformableAEntero(String cadena) {
-        try {
-            Integer.parseInt(cadena);
-            return true;
-        } catch (NumberFormatException e) {
-            return false;
-        }
-    }
-	
-	private static int getRandomInt(int max) {
-		return new Random().nextInt(max);
-	}
-	
-	
-	private static ArrayList<?> getQuestions() {
-		ArrayList<?> list = new ArrayList<>();
-		
-		 File folder = new File("questions");
-	        if (!folder.exists()) {
-	            title("Error al cargar el fichero");
-	        } else {
-	        	File[] filesList = folder.listFiles();
-
-	            for (File file : filesList) {
-	                if (file.isFile() && file.getName().endsWith(".txt")) {
-	                    var topicName = file.getName().substring(0, file.getName().length() - 4);
-	                    // TODO create topic
-	                    
-	                    // Read the question
-	                    try (BufferedReader br = new BufferedReader(new FileReader(file))) {
-	                        String line;
-	                        List<String> block = new ArrayList<>();
-
-	                        while ((line = br.readLine()) != null) {
-                        		block.add(line);
-
-	                            if (block.size() == 6) { // número de lineas que componen una pregunta
-	                                var question = block.get(0);
-	                                var answer1 = block.get(1);
-	                                var answer2 = block.get(2);
-	                                var answer3 = block.get(3);
-	                                var answer4 = block.get(4);
-	                                var rightOption = Integer.parseInt(block.get(5));
-	                                
-	                                // TODO create question
-	                                block.clear();
-	                            }
-	                        }
-	                        // TODO Add to list
-	                    } catch (IOException e) {
-	                        e.printStackTrace();
-	                    }
-	                  
-	                }
-	            }
-	        }
-	        
-		return list;
-	}
-	
-}
-**/
-
-
-
 package io.keepcoding.keeptrivial;
 
 import java.io.BufferedReader;
@@ -115,9 +5,11 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Set;
 
 public class MainTrivial {
     public static void main(String[] args) {
@@ -142,12 +34,18 @@ public class MainTrivial {
         // Main game loop
         boolean exit = false;
         int currentTeamIndex = 0;
+        Set<String> allCategories = getAllCategories(questions); // Obtener todas las categorías
         while (!exit) {
             Team currentTeam = teams.get(currentTeamIndex);
             System.out.println("It's " + currentTeam.getName() + "'s turn!");
 
-            // Show a random question
-            Question question = questions.get(getRandomInt(questions.size()));
+            // Select a random question from a category the team doesn't have a quesito in
+            Question question = getRandomQuestion(questions, currentTeam, allCategories);
+            if (question == null) {
+                System.out.println("No more questions available for the team.");
+                exit = true;
+                continue;
+            }
             question.displayQuestion();
 
             // Get the team's answer
@@ -161,6 +59,12 @@ public class MainTrivial {
                 if (answerInt == question.getCorrectAnswer()) {
                     System.out.println("Correct!");
                     currentTeam.addScore(1);
+                    currentTeam.addQuesito(question.getTopic().getName());
+
+                    if (currentTeam.hasAllQuesitos(allCategories)) {
+                        System.out.println("Congratulations! " + currentTeam.getName() + " has won all the quesitos and the game!");
+                        exit = true;
+                    }
                 } else {
                     System.out.println("Incorrect. The correct answer was " + question.getCorrectAnswer());
                 }
@@ -225,8 +129,8 @@ public class MainTrivial {
         ArrayList<Question> list = new ArrayList<>();
 
         File folder = new File("questions");
-        if (!folder.exists()) {
-            title("Error al cargar el fichero");
+        if (!folder.exists() || !folder.isDirectory()) {
+            title("Error: La carpeta 'questions' no existe o no es un directorio.");
         } else {
             File[] filesList = folder.listFiles();
 
@@ -265,6 +169,28 @@ public class MainTrivial {
 
         return list;
     }
+
+    private static Set<String> getAllCategories(ArrayList<Question> questions) {
+        Set<String> categories = new HashSet<>();
+        for (Question question : questions) {
+            categories.add(question.getTopic().getName());
+        }
+        return categories;
+    }
+
+    private static Question getRandomQuestion(ArrayList<Question> questions, Team team, Set<String> allCategories) {
+        List<Question> filteredQuestions = new ArrayList<>();
+        Set<String> teamQuesitos = team.getQuesitos();
+        for (Question question : questions) {
+            if (!teamQuesitos.contains(question.getTopic().getName())) {
+                filteredQuestions.add(question);
+            }
+        }
+        if (filteredQuestions.isEmpty()) {
+            return null;
+        }
+        return filteredQuestions.get(getRandomInt(filteredQuestions.size()));
+    }
 }
 
 class Question {
@@ -288,6 +214,10 @@ class Question {
 
     public int getCorrectAnswer() {
         return correctAnswer;
+    }
+
+    public Topic getTopic() {
+        return topic;
     }
 
     public void displayQuestion() {
@@ -335,10 +265,12 @@ class Topic {
 class Team {
     private String name;
     private int score;
+    private Set<String> quesitos;
 
     public Team(String name) {
         this.name = name;
         this.score = 0;
+        this.quesitos = new HashSet<>();
     }
 
     public String getName() {
@@ -353,9 +285,21 @@ class Team {
         this.score += points;
     }
 
+    public void addQuesito(String category) {
+        quesitos.add(category);
+    }
+
+    public Set<String> getQuesitos() {
+        return quesitos;
+    }
+
+    public boolean hasAllQuesitos(Set<String> allCategories) {
+        return quesitos.containsAll(allCategories);
+    }
+
     @Override
     public String toString() {
-        return name + " (Score: " + score + ")";
+        String quesitosString = quesitos.isEmpty() ? "ningún quesito conseguido aún" : quesitos.toString();
+        return name + " (Score: " + score + ", Quesitos: " + quesitosString + ")";
     }
 }
-
